@@ -1,0 +1,47 @@
+.jim-tabla{
+    padding: 0px;
+    margin: 0px;
+    border: 1px solid rgb(71, 70, 70);
+    table-layout: fixed;
+    padding: 10px;
+    width: 100%;
+    border-radius: 10px;
+    background: rgb(216, 212, 212);
+}
+.jim-tabla thead{
+    border-bottom: 1px solid;
+    border-color: aqua;
+    color: rgb(61, 59, 59);
+}
+
+.jim-tabla tr{
+    padding: 5px;
+}
+
+.jim-tabla  tr  td{
+    margin: 0px;
+    padding: 0px;
+    text-align: center; 
+}
+
+.findesemana{
+    background: rgb(238, 150, 150);
+    border-radius: 30px;
+    padding: 5px;
+    box-shadow: 10px;
+    font-weight: bold;
+    
+}
+.fechaseleccionada{
+    border: 2px solid black;
+    border-radius: 40px;
+}
+.fechaactual{
+    color:red;
+    font-weight: bold;
+    border-radius: 40px;
+}
+.jim-tabla tr td:hover{
+    text-shadow: blue;
+    border-radius: 30px
+}
